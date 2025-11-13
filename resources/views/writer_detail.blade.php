@@ -3,8 +3,8 @@
 @section('container')
     <div class="row mb-4 align-items-center">
         <div class="col-md-2 text-center">
-             <img src="{{ asset('images/' . $writer->image) }}" 
-                 class="rounded-circle img-thumbnail w-100" 
+            <img src="{{ asset('images/' . $writer->image) }}"
+            class="rounded-circle img-thumbnail w-100"
                 alt="{{ $writer->name }}">
         </div>
         <div class="col-md-10">
